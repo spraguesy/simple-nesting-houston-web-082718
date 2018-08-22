@@ -96,7 +96,9 @@ def changing_alan
 	programmer_hash =
  		{
 			grace_hopper: "COBOL",
-			alan_kay: "Object Orientation",
+			alan_kay: {
+				known_for: "Object Orientation"
+			},
 			dennis_ritchie: "Unix"
 		}
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
