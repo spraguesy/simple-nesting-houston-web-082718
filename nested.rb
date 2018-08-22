@@ -100,7 +100,6 @@ def changing_alan
 			dennis_ritchie: "Unix"
 		}
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
-     alans_new_info = "GUI"
 
 		 puts programmer_hash[:alan_kay]
 
