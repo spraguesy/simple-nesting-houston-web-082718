@@ -102,8 +102,10 @@ def changing_alan
 			dennis_ritchie: "Unix"
 		}
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
+
+		 puts programmer_hash[:alan_kay][:known_for].inspect	
 		 programmer_hash[:alan_kay][:known_for] = "GUI"
-		 puts programmer_hash[:alan_kay][:known_for]
+		 
 
 
 end
